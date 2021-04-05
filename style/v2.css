@@ -1,0 +1,124 @@
+body {
+  background-color:#c7bebe;
+  width:700px;
+}
+
+h1 {
+  color: black;
+  font-family: serif;
+  font-style: italic ;
+  font-weight: normal;
+  text-align: center;
+  text-transform: capitalize;
+  background-color:#0b8e1c;
+}
+
+h1.index{
+  text-shadow:2px 2px 7px #bcd5d3;
+  font-size: 300%;
+  margin:10px;
+}
+p.index2{
+  text-align: center;
+  text-transform: uppercase;
+}
+h2.first{
+  text-align: center;
+
+}
+h2.first3{
+  text-align: center;
+  text-decoration: none;
+}
+h2 {
+  color: black;
+  font-style: normal ;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+p {
+  color: black;
+  font-style:italic ;
+  font-weight: lighter;
+  font-family: serif;
+  margin: 0px;
+  font-size: 16px;
+  text-decoration: none;
+  padding:5px;
+
+}
+
+p li{
+  padding: 0px;
+}
+
+p.about{
+  font-weight: bold;
+
+}
+li a{
+  font-style: normal ;
+  font-family: serif;
+  margin: 10px;
+}
+
+a:link{
+  text-decoration: underline;
+  color: #4a76d6;
+}
+
+a:visited{
+  color: #727add;
+}
+
+a:hover{
+  color: #5bed85;
+}
+
+a:active{
+  color: #727add;
+}
+
+p em{
+  font-style:italic ;
+  font-weight: bold;
+
+}
+
+li {
+  color: black;
+  font-style: italic; /* removes italics */
+  font-weight: normal; /* adds bold */
+  font-family: serif;
+  font-size: 16px;
+
+}
+
+em{
+  font-weight: bold; /* adds bold */
+  font-family: serif;
+}
+
+h3{
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+nav li{
+  display: inline;
+}
+
+nav{
+  text-align: center;
+}
+
+ul{
+  margin:0px;
+}
+
+img{
+  width:700px;
+  padding: 10px;
+}

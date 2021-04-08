@@ -1,7 +1,7 @@
 body {
   background-color:#d8e2d3;
-  width:700px;
-  margin:auto;
+  /* width:700px; */
+  /* margin:auto; */
 }
 
 h1 {
@@ -97,7 +97,14 @@ nav li{
 nav{
   text-align: center;
 }
-
+.navfix{
+  position:sticky;
+  top:0px; 
+   left:0px;
+  background-color:#79cda8;
+  /* width:700px; */
+  /* border-style:groove; */
+}
 ul{
   margin:0px;
 }
@@ -129,4 +136,36 @@ div{
 .comp{
   text-align:left;
   text-decoration:underline;
+}
+
+.pic1{
+ opacity: 50%;
+}
+
+.resume{
+  text-align: center;
+  height: 620px;
+  padding-top: 100px;
+}
+#about{
+  display:flex;
+  height: 620px;
+  background-color:#f8f9fa!important;
+
+}
+#skills{
+  height: 620px;
+}
+#portfolio{
+  height: 620px;
+}
+#contact{
+  height: 620px;
+}
+
+.aboutme{
+  width:700px;
+}
+.filler{
+  width:800px;
 }
